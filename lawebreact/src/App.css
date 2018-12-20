@@ -67,7 +67,9 @@
 
 #leftlink{
     margin-left: 85%;
-    font-size: 200%;
+    font-size: 150%;
+    float: left;
+    
 }
 
 #titreactivite {
@@ -93,4 +95,14 @@
     font-size: 600%;
 }
 
+#BtAct{
+  width: 150px;
+  //
+  background-color: transparent;
+  border: none;
+}
+
+#Btinscription{
+  background-color: "green";
+}
 /* Fin css vue_activite */

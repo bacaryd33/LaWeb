@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import TypeActivite from './TypeActivite';
 import Box from './Box.js';
-import {Button,Modal} from 'react-bootstrap'
+import {Button,Modal} from 'react-bootstrap';
 //importer inscription activité (module Modalform)
 
 class ListeActivite extends Component {
@@ -30,42 +30,11 @@ class ListeActivite extends Component {
 
     return (
       <div>
-        <p>Click to get the full Modal experience!</p>
-
-        <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
-          Launch demo modal
-        </Button>
-
-        <Modal show={this.state.show} onHide={this.handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <h4>Text in a modal</h4>
-            <p>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-            </p>
-
-            <hr />
-
-            <p>
-              Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
-              cursus magna, vel scelerisque nisl consectetur et. Donec sed odio
-              dui. Donec ullamcorper nulla non metus auctor fringilla.
-            </p>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.handleClose}>Close</Button>
-          </Modal.Footer>
-        </Modal>
-
+      
         <TypeActivite title='Développement'/>
         <div className="container">
           <div className="row">
-          <Modal>
-          <Button onClick={this.handleClose}>Close</Button>
-              <Box imgnom='Python' imglink='./images/python.png' onClick={this.handleShow}/>
-              </Modal>
+              <Box imgnom='Python' imglink='./images/python.png' modnom='Python' modtitre="Les Bases" modanimateur="Aubry Quentin" moddate="28 Janvier 2019" modnbplace="5" moddescription="Dans cet atelier nous vous présenterons les technologies permettant la production de code Python ainsi qu'un bref récapitulatif de la syntaxe."/>
               <Box imgnom='C++' imglink='./images/C++.png'/>
               <Box imgnom='C#' imglink='./images/Csharp.png'/>
               <Box imgnom='Java' imglink='./images/java.png'/>
