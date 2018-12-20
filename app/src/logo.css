@@ -1,0 +1,51 @@
+.colonne {
+	margin: 15px 25px 0 25px;
+	padding: 0;
+}
+.colonne:last-child {
+	padding-bottom: 60px;
+}
+.colonne::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.colonne div {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 0 0 0 35px;
+	padding: 0;
+}
+.colonne div:first-child {
+	margin-left: 0;
+}
+div {
+	width: 200px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	background: #F4F4F4;
+	overflow: hidden;}
+
+
+
+
+
+.morph div img {
+    width: 200px;
+    height: 150px;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  .morph div:hover img {
+    width: 150px; /* on affiche l'image au carré */
+    height: 150px;
+    border-radius: 50%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+  }
