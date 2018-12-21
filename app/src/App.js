@@ -6,6 +6,7 @@ import Accueil from "./Accueil";
 import Connexion from './Connexion';
 import Membre from './Membre';
 import Mdp from './Mdp';
+import Astuce from './Astuce';
 
 class App extends Component {
  
@@ -30,7 +31,7 @@ class App extends Component {
                     <a class="menu_text" href="pages/vue_activite.html"><img src="../apprendre.svg" alt="Activité" class="images"/>Viens découvrir</a>
                 </li>
                 <li>
-                    <a class="menu_text" href="pages/astuces.html"><img src="../astuce.svg" alt="Astuce" class="images"/>Trucs & Astuces</a>
+                    <a class="menu_text" href="/astuces"><img src="../astuce.svg" alt="Astuce" class="images"/>Trucs & Astuces</a>
                 </li>
                 <li>
                     <a class="menu_text" href="pages/vue_contact.html"><img src="../contact.svg" alt="Administrateur" class="images"/>Contact</a>
@@ -65,6 +66,7 @@ class App extends Component {
             <Route path='/connexion' component={Connexion}/>
             <Route path='/membre' component={Membre}/>
             <Route path='/mdp' component={Mdp}/>
+            <Route path='/astuces' component={Astuce}/>
         </Switch>
       </Router>
     
