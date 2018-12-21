@@ -1,0 +1,81 @@
+.card {
+    -moz-box-shadow: 0 0 2px #888;
+    -webkit-box-shadow: 0 0 2px#888;
+    box-shadow: 0 0 2px #888;
+    text-align: center;
+}
+
+.card img {
+    width: 400px;
+    height: 250px;
+    margin-top:30px;
+}
+
+.card li a{
+
+}
+
+.nav-tabs>li>a {
+    border: none;
+}
+
+#home {
+	text-align: justify;
+}
+
+.twitterAccueil {
+	text-align : center;
+	display:block;
+	width:auto;
+	padding-left: 500px;
+	padding-right: 500px;
+}
+
+#sautdeligne{
+    margin: 0.2em 0; 
+  }
+  #div_titreAccueil {
+    font-family: "./Hunters.otf";
+    font-size: 400%;
+    margin: 0;
+  
+  }
+  
+  #div_presentation {
+    font-family: "Gill Sans";
+    font-size: 200%;
+    margin: 0;
+  
+  }
+  
+  .card {
+      -moz-box-shadow: 0 0 2px #888;
+      -webkit-box-shadow: 0 0 2px#888;
+      box-shadow: 0 0 2px #888;
+  }
+  
+  .card img {
+      width: 400px;
+      height: 250px;
+      margin-top:30px;
+  }
+  
+  .card li a{
+  
+  }
+  
+  .nav-tabs>li>a {
+      border: none;
+  }
+  
+  #home {
+      text-align: justify;
+  }
+  
+  .twitterAccueil {
+      text-align : center;
+      display:block;
+      width:auto;
+      padding-left: 500px;
+      padding-right: 500px;
+  }
