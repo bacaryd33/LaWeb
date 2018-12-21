@@ -18,7 +18,7 @@ class Accueil extends Component {
                                      Elle a pour but d'aider et d'apportter de nouvelles connaissances
                                      dans des domaines autour de l'informatique.<div id="sautdeligne"></div>
                                      Elle propose un certains nombre d'activités ayant pour but d'initier
-                                     ou d'approfondir vos connaissances autour d'ateliers et des évènements.<div id="sautdeligne"></div>
+                                     ou d'approfondir vos connaissances autour d'ateliers et d'évènements.<div id="sautdeligne"></div>
                             </div>
                            </p>
                            <br></br>

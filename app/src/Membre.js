@@ -81,7 +81,7 @@ class Membre extends Component {
                   <label for="scales">S'abonner aux newsletter</label>
                   
                   
-                  <br></br><input type="submit" value="Devenir membre" />
+                  <br></br><input class="btn btn-danger btn-lg" type="submit" value="Devenir membre" />
                           </form>
           
                         </div>

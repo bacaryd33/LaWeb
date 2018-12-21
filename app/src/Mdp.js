@@ -36,7 +36,7 @@ class Mdp extends Component {
                               </div>
                             </div>
     
-                                <br></br><input type="submit" value="Réinitialiser le mot de passe" />
+                                <br></br><input class="btn btn-danger btn-lg" type="submit" value="Réinitialiser le mot de passe" />
                               </form>
               
                             </div>

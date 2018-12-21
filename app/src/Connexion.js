@@ -44,10 +44,10 @@ class Connexion extends React.Component {
           });
           
           if((this.state.mdp ===this.state.mdpServ) && (this.state.logServ ===this.state.identifiant)){
-            alert("Bonjour " + this.state.identifiant);
+            alert("Bonjour " + this.state.identifiant + " !");
 
           }else{
-            alert("Désolé vous n'êtes pas un membre.");   
+            alert("Identifiant ou mot de passe incorrect.");   
           }
 
         
@@ -89,7 +89,7 @@ class Connexion extends React.Component {
 						        <a href="/mdp">Mot de passe oublié?</a>
 					        </div>
 
-                            <br></br><input type="submit" value="Se connecter" />
+                            <br></br><input class="btn btn-danger btn-lg" type="submit" value="Se connecter" />
                           </form>
           
                         </div>

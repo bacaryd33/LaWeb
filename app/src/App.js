@@ -30,7 +30,7 @@ class App extends Component {
                     <a class="menu_text" href="pages/vue_activite.html"><img src="../apprendre.svg" alt="Activité" class="images"/>Viens découvrir</a>
                 </li>
                 <li>
-                    <a class="menu_text" href="pages/astuces.html"><img src="../astuce.svg" alt="Astuce" class="images"/>Truc & Astuces</a>
+                    <a class="menu_text" href="pages/astuces.html"><img src="../astuce.svg" alt="Astuce" class="images"/>Trucs & Astuces</a>
                 </li>
                 <li>
                     <a class="menu_text" href="pages/vue_contact.html"><img src="../contact.svg" alt="Administrateur" class="images"/>Contact</a>
@@ -43,7 +43,7 @@ class App extends Component {
         </nav>
 
         <div class="inter">
-          <p id="connexion"><a href="/connexion"> Se connecter</a></p>
+          <a href="/connexion" class="btn btn-danger btn-lg" role="button" title="Se connecter"> Se connecter</a>
         </div>
         
         </div>
